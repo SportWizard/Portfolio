@@ -2,6 +2,13 @@
     font-size: 20px;
 }
 
+.sideBySide {
+    float: left;
+    width: 50%;
+    border-right: solid 4px black;
+    margin-right: 2%;
+}
+
 #name {
     text-align: center;
     font-family: cursive;
