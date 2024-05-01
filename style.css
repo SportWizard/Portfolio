@@ -1,3 +1,10 @@
+/*targets the pseudo-element ::after of elements with the class .container. the ::after pseudo-element is commonly used to insert content after the content of an element*/
+.container::after {
+    content: ""; /*specifies what content should be inserted after the element's content*/
+    display: table; /*specifies the type of display for the pseudo-element. using display: table; is a common trick to trigger block formatting context, which helps contain floats*/
+    clear: both; /*specifies whether an element should be moved below (cleared) floating elements that precede it. by setting it to both, the pseudo-element clears both left and right floats*/
+}
+
 * {
     font-size: 20px;
 }
