@@ -2,106 +2,307 @@
 <html>
     <head>
         <link href="style.css" type="text/css" rel="stylesheet"/>
+        <script src="script.js"></script>
 
         <title>Portfolio</title>
     </head>
     
     <body>
-        <header>
-            <p id="name">Henry Ye Cao</p>
-        </header>
+        <div class="outer-border">
+            <div class="inner-border">
+                <div class="content">
+                    <div id="nav">
+                        <a class="navButton" href="#main">Main</a>
+                        <a class="navButton" href="#interest">Interest</a>
+                        <a class="navButton" href="#education">Education</a>
+                        <a class="navButton" href="#skills">Skills</a>
+                        <a class="navButton" href="#personalProjects">Personal Projects</a>
+                        <a class="navButton" href="#videoAndDevelopment">Video & Development</a>
+                        <a class="navButton" href="#contacts">Contacts</a>
+                    </div>
 
-        <hr/>
+                    <div class="page" id="main">
+                        <h1>
+                            WELCOME, my name is
+                            </br> 
+                            <span id="name">Henry Ye Cao</span>
+                            </br>
+                            A third-year Computer Science student
+                        </h1>
+                    </div>
 
-        <h2 class="title">Educations</h2>
-        
-        <div id="educations">
-            <img src="img/DrNormanBethune.png"/>
-            <p>High School: Dr.Norman Bethune Collegiate Institute 2018 - 2022</p>
+                    <div class="page" id="interest">
+                        <h2 class="header">Interest</h2>
 
-            <br/>
+                        <p>
+                            I am passionate about Artificial Intelligence, particularly in Deep Learning. Additionally, I have a keen interest in computer vision and robotics. I have experimented with computer vision using OpenCV for some of my projects, although not extensively. Unfortunately, I haven't had the opportunity to delve into robotics.
+                        </p>
+                    </div>
 
-            <img src="img/YorkUniversity.png" width="200" height="200"/>
-            <p>Post Secondary: Computer Science at York University 2022 - 2026/2027</p>
-        </div>
+                    <div class="page" id="education">
+                        <h2 class="header">Education</h2>
 
-        <hr/>
+                        <div class="school">
+                            <h3>Dr.Norman Bethune Collegiate Institute</h3>
 
-        <div class="container">
-            <div class="sideBySide1">
-                <h2 class="title">Skills</h2>
-                I excel in certain areas, but I'm still developing my abilities in some of the skills mentioned
+                            <p>2018 - 2022</p>
 
+                            <img src="img/DrNormanBethune.png" width="200" height="200"/>
+                        </div>
 
-                <div>
-                    <p>Language:</p>
+                        <div class="school">
+                            <h3>York University</h3>
 
-                    <ul>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>HMTL/CSS</li>
-                        <li>Javascript</li>
-                    </ul>
+                            <p>
+                                2022 - 2025
+                                </br>
+                                </br>
+                                Bachelor of Science in Computer Science
+                            </p>
+
+                            <img src="img/YorkUniversity.png" width="200" height="200"/>
+                        </div>
+                    </div>
+
+                    <div class="page" id="skills">
+                        <h2 class="header">Skills</h2>
+
+                        <div class="skillSection">
+                            <h3>Languages:</h3>
+
+                            <div class="skill">
+                                <p>Python</p>
+
+                                <div class="progressBar">
+                                    <div class="progress" style="width:50%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <p>Java</p>
+
+                                <div class="progressBar">
+                                    <div class="progress" style="width:50%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <p>HTML/CSS</p>
+
+                                <div class="progressBar">
+                                    <div class="progress" style="width:15%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <p>JavaScript</p>
+
+                                <div class="progressBar">
+                                    <div class="progress" style="width:15%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <p>C</p>
+
+                                <div class="progressBar">
+                                    <div class="progress" style="width:5%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skillSection">
+                            <h3>Concepts:</h3>
+
+                            <div class="skill">
+                                <p>Object Oriented Programming</p>
+
+                                <div class="progressBar">
+                                    <div class="progress" style="width:50%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <p>Data Structures</p>
+
+                                <div class="progressBar">
+                                    <div class="progress" style="width:10%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skillSection">
+                            <h3>Frameworks:</h3>
+
+                            <div class="skill">
+                                <p>Flask</p>
+
+                                <div class="progressBar">
+                                    <div class="progress" style="width:5%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page" id="personalProjects">
+                        <h2 class="header">Personal Projects</h2>
+
+                        <p>(Scroll for more projects)</p>
+
+                        <div class="projectSection">
+                            <h3>Discord Bot</h3>
+
+                            <p>Price bot (Date created: July 29, 2022):</p>
+
+                            <a href="https://github.com/SportWizard/Price-bot" target = "_blank">
+                                <button>Github</button>
+                            </a>
+
+                            </br>
+
+                            <p>UofT Safety Bot (Date created: March 28, 2023):</p>
+                            
+                            <a href="https://github.com/SportWizard/UofT-Safety-Bot" target = "_blank">
+                                <button>GitHub</button>
+                            </a>
+
+                        </div>
+
+                        <div class="projectSection">
+                            <h3>Game</h3>
+
+                            <p>Samurai's Revenge (Date created: August 30, 2022):</p>
+
+                            <a href="https://unknownyt.itch.io/samurais-revenge-demo" target = "_blank">
+                                <button>Game</button>
+                            </a>
+
+                            <a href="https://www.youtube.com/watch?v=Gac3PEhojvw&list=PLEkZO3gsbchbNw6wjAa8sApMiIWiMfmEg&pp=iAQB" target = "_blank">
+                                <button>YouTube</button>
+                            </a>
+
+                            <a href="https://github.com/SportWizard/Samurais-Revenge" target = "_blank">
+                                <button>GitHub</button>
+                            </a>
+                        </div>
+
+                        <div class="projectSection">
+                            <h3>Voice Assistant</h3>
+
+                            <p>(Date created: December 6, 2022):</p>
+
+                            <a href="https://github.com/SportWizard/Voice-Assistant" target = "_blank">
+                                <button>GitHub</button>
+                            </a>
+                        </div>
+
+                        <div class="projectSection">
+                            <h3>Type Racer Bot</h3>
+
+                            <p>(Date created: December 6, 2022):</p>
+
+                            <a href="https://youtu.be/LFL76I6wgwI?si=1vZ_62S8hjvHuPMi" target = "_blank">
+                                <button>YouTube</button>
+                            </a>
+
+                            <a href="https://github.com/SportWizard/Type-Racer-Cheat" target = "_blank">
+                                <button>GitHub</button>
+                            </a>
+                        </div>
+
+                        <div class="projectSection">
+                            <h3>Dino Run Bot</h3>
+
+                            <p>(Date created: January 22, 2023):</p>
+
+                            <a href="https://youtube.com/shorts/X9ZeopwMRU4?si=pKYnVbVU0MLhzT-a" target = "_blank">
+                                <button>YouTube</button>
+                            </a>
+
+                            <a href="https://github.com/SportWizard/Dino-Run-Cheat" target = "_blank">
+                                <button>GitHub</button>
+                            </a>
+                        </div>
+
+                        <div class="projectSection">
+                            <h3>Snake Game Bot</h3>
+
+                            <p>(Date created: March 25, 2023):</p>
+
+                            <a href="https://youtube.com/shorts/ecuiplrWAu8?si=701vZRNQzz5cNj6R" target = "_blank">
+                                <button>YouTube</button>
+                            </a>
+
+                            <a href="https://github.com/SportWizard/Snake-Bot" target = "_blank">
+                                <button>GitHub</button>
+                            </a>
+                        </div>
+
+                        <div class="projectSection">
+                            <h3>Text to Image</h3>
+
+                            <p>(Date created: April 27, 2023):</p>
+
+                            <a href="https://youtu.be/csTq3v_Pex8?si=675xVY-H8AnsCuXK" target = "_blank">
+                                <button>YouTube</button>
+                            </a>
+
+                            <a href="https://github.com/SportWizard/Text-To-Image" target = "_blank">
+                                <button>GitHub</button>
+                            </a>
+                        </div>
+
+                        <div class="projectSection">
+                            <h3>StudyHub</h3>
+
+                            <p>(Date created: January 28, 2024):</p>
+
+                            <a href="http://kyrap.pythonanywhere.com/" target = "_blank">
+                                <button>Website</button>
+                            </a>
+
+                            <a href="https://github.com/SportWizard/StudyHub" target = "_blank">
+                                <button>GitHub</button>
+                            </a>
+                        </div>
+
+                        <div class="projectSection">
+                            <h3>Blog</h3>
+
+                            <p>(Date created: May 1, 2024):</p>
+
+                            <a href="http://unknowncoder.pythonanywhere.com/" target = "_blank">
+                                <button>Website</button>
+                            </a>
+
+                            <a href="https://github.com/SportWizard/Blog" target = "_blank">
+                                <button>GitHub</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="page" id="videoAndDevelopment">
+                        <h2 class="header">Video & Development</h2>
+
+                        <a href="https://github.com/SportWizard" target = "_blank">
+                            <img src="img/Github.png" width="200" height="200"/>
+                        </a>
+                        
+                        <a href="https://www.youtube.com/@Unknown-bm1il" target = "_blank">
+                            <img src="img/YouTubeProfilePicture.png" width="200" height="200"/>
+                        </a>
+                    </div>
+
+                    <div class="page" id="contacts">
+                        <h2 class="header">Contacts</h2>
+
+                        <p>
+                            <img src="img/Email.png" width="30" height="30"/>
+                            henry.yecao11@gmail.com
+                        </p>
+                    </div>
                 </div>
-
-                <div>
-                    <p>Concepts:</p>
-
-                    <ul>
-                        <li>Object Oriented Programming</li>
-                        <li>Data Structures</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <p>Framework:</p>
-
-                    <ul>
-                        <li>Flask (Beginner)</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="sideBySide2">
-                <h2 class="title">Interesting Projects</h2>
-                All of these projects can be found on my GitHub
-
-                <ul>
-                    <li>Discord Bot: Price bot, UofT Safety Bot</li>
-                    <li>Game: <a href="https://unknownyt.itch.io/samurais-revenge-demo" target="_blank">Samurai's Revenge</a></li>
-                    <li>Voice Assistant</li>
-                    <li>Type Racer Bot</li>
-                    <li>Dino Run Bot</li>
-                    <li>Snake Game Bot</li>
-                    <li>Tic Tac Toe Bot</li>
-                    <li><a href="http://kyrap.pythonanywhere.com" target="_blank">StudyHub</a></li>
-                    <li><a href="http://unknowncoder.pythonanywhere.com" target="_blank">Blog</a></li>
-                </ul>
             </div>
         </div>
-
-        <hr/>
-
-        <div class="container">
-            <div class="sideBySide1">
-                <h2 class="title">Interests</h2>
-
-                <p>
-                    I am passionate about Artificial Intelligence, particularly in Deep Learning. Additionally, I have a keen interest in computer vision and robotics. I have experimented with computer vision using OpenCV for some of my projects, although not extensively. Unfortunately, I haven't had the opportunity to delve into robotics.
-                </p>
-            </div>
-
-            <div class="sideBySide2">
-            </div>
-        </div>
-
-        <footer>
-            <a href="https://github.com/SportWizard" target="_blank">
-                <img src="img/Github.png" width="50" height="50"/>
-            </a>
-            <a href = "https://www.youtube.com/@Unknown-bm1il" target = "_blank">
-                <img src="img/YouTube.png" width="80" height="50"/>
-            </a>
-        </footer>
     </body>
 </html>
