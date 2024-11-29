@@ -4,7 +4,6 @@
 
 body {
     background-color: rgb(24, 24, 24);
-    overflow: hidden;
 }
 
 @keyframes fadeInAnimation {
@@ -21,8 +20,6 @@ body {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 2%;
-    animation: fadeInAnimation 2s;
-    overflow: scroll;
 }
 
 #nav {
