@@ -220,16 +220,14 @@ body {
 
 .school {
     float: left;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 18%;
     padding: 20px 20px 20px 20px;
     text-align: center;
 }
 
 .skillSection {
     float: left;
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 10%;
     padding: 20px 20px 20px 20px;
 }
 
