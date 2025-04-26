@@ -4,6 +4,7 @@
 
 body {
     background-color: rgb(24, 24, 24);
+    overflow: hidden;
 }
 
 @keyframes fadeInAnimation {
